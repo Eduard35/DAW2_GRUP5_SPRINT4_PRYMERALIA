@@ -1,0 +1,24 @@
+{
+  "name": "eva-grup5-pymeralia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel-lara/EVA-Grup3-Pymeralia.git"
+  },
+  "author": "Samuel, Pol, Tatiana, Francisco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuel-lara/EVA-Grup3-Pymeralia/issues"
+  },
+  "homepage": "https://github.com/samuel-lara/EVA-Grup3-Pymeralia#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1"
+  }
+}
