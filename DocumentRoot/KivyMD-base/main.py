@@ -1,3 +1,4 @@
+import os
 from kivy.lang import Builder
 from kivymd.app import MDApp
 from kivymd.uix.boxlayout import MDBoxLayout
@@ -47,8 +48,8 @@ class MyApp(MDApp):
     def on_start(self):
         scroll = ScrollView()
         
-        # Leer los datos del archivo "inventory.json"
-        with open("json/inventory.json", "r") as f:
+        # Leer los datos del archivo "inventory.json"                
+        with open("DocumentRoot/KivyMD-base/json/inventory.json", "r") as f:
             inventory = json.load(f)
 
         # Crear el layout principal
