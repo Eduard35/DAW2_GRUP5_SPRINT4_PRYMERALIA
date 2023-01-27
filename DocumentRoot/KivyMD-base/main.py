@@ -49,7 +49,7 @@ class MyApp(MDApp):
         scroll = ScrollView()
         
         # Leer los datos del archivo "inventory.json"                
-        with open("DocumentRoot/KivyMD-base/json/inventory.json", "r") as f:
+        with open("DocumentRoot/KivyMD-base/json/inventory.json") as f:
             inventory = json.load(f)
 
         # Crear el layout principal
@@ -93,7 +93,7 @@ class MyApp(MDApp):
         current_screen = self.root.ids.screen_manager.get_screen("QR")
         # redireccionar a la pantalla qrW
         self.root.ids.screen_manager.current = "QR"
-        # crea una instancia de la aamera
+        # crea una instancia de la camera
         self.camera = Camera(index=0)
         # agregar la camara a la vista actual
         current_screen.add_widget(self.camera)
